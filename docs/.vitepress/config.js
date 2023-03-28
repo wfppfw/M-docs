@@ -1,60 +1,3 @@
-// import { DefaultTheme, defineConfig } from 'vitepress';
-// const nav = [
-//   { text: '指南', link: '/guide/' },
-//   { text: '组件', link: '/components/basic-component1' },
-//   // 顶部导航下拉菜单按如下方式：
-//   /*
-//   {
-//     text: 'Dropdown Menu',
-//     items: [
-//       { text: 'Item A', link: '/item-1' },
-//       { text: 'Item B', link: '/item-2' },
-//       { text: 'Item C', link: '/item-3' }
-//     ]
-//   }
-//    */
-// ];
-// const sidebar = {
-//   '/guide': [
-//     {
-//       text: '指南',
-//       items: [
-//         { text: '组件库介绍', link: '/guide/' },
-//         { text: '快速开始', link: '/guide/quickstart' },
-//       ],
-//     },
-//   ],
-//   '/components': [
-//     {
-//       text: '通用基础组件',
-//       items: [
-//         { text: '基础组件 1', link: '/components/basic-component1' },
-//         { text: '基础组件 2', link: '/components/basic-component2' },
-//       ],
-//     },
-//     {
-//       text: '通用业务组件',
-//       items: [
-//         { text: '通用组件 1', link: '/components/common-component1' },
-//         { text: '通用组件 2', link: '/components/common-component2' },
-//       ],
-//     },
-//     {
-//       text: '高级业务组件',
-//       items: [
-//         { text: '高级组件 1', link: '/components/pro-component1' },
-//         { text: '高级组件 2', link: '/components/pro-component2' },
-//       ],
-//     },
-//   ],
-// };
-
-// module.exports = {
-//   title: 'Hello VitePress',
-//   base: '/',
-//   description: 'Just playing around.',
-// };
-
 export default {
   title: 'Moon-docs',
   description: 'moon的学习文档组件库',
@@ -74,14 +17,18 @@ export default {
     ],
   ],
   themeConfig: {
-    siteTitle: false,
+    siteTitle: "Moon's docs",
     logo: './moonLogo.png',
     nav: [
-      { text: '指南', link: '/guide/installation' },
-      { text: '组件库', link: '/components/' },
+      { text: 'Guide', link: '/guide/installation' },
+      { text: 'Component', link: '/components/' },
       {
-        text: 'chrome插件文档',
+        text: 'Extension Docs',
         link: '/chromedocs/index',
+      },
+      {
+        text: 'Tool',
+        link: '/tools/community',
       },
     ],
     socialLinks: [{ icon: 'github', link: 'https://gitee.com/geeksdidi' }],
@@ -101,7 +48,7 @@ export default {
             },
             {
               text: "What's new in Chrome extensions",
-              link: "/chromedocs/Whats new in Chrome extensions - Chrome Developers.md",
+              link: '/chromedocs/Whats new in Chrome extensions - Chrome Developers.md',
             },
           ],
         },
@@ -204,18 +151,21 @@ export default {
         },
         {
           text: 'API reference',
-          items:[{
-            text: 'API reference',
-            link: '/chromedocs/API reference - Chrome Developers.md',
-          }],
+          items: [
+            {
+              text: 'API reference',
+              link: '/chromedocs/API reference - Chrome Developers.md',
+            },
+          ],
         },
         {
           text: 'Samples',
-          items:[{
-            text: 'Samples',
-            link: 'https://github.com/GoogleChrome/chrome-extensions-samples',
-          }],
-          
+          items: [
+            {
+              text: 'Samples',
+              link: 'https://github.com/GoogleChrome/chrome-extensions-samples',
+            },
+          ],
         },
         {
           text: 'Develop extensions and themes',
@@ -274,7 +224,7 @@ export default {
             {
               text: 'Cross-origin isolation',
               link: '/chromedocs/In depth_ core concepts/Cross-origin isolation - Chrome Developers.md',
-            }
+            },
           ],
         },
         {
@@ -379,7 +329,6 @@ export default {
             },
           ],
         },
-
       ],
       '/guide/': [
         {
@@ -409,6 +358,33 @@ export default {
         {
           text: '基础组件',
           link: '/guide/installation',
+        },
+      ],
+      tools: [
+        {
+          text: '导航分类',
+          items: [
+            {
+              text: '社区文档网站收集',
+              link: '/tools/community.md',
+            },
+            {
+              text: '工具网站收集',
+              link: '/tools/tools.md',
+            },
+            {
+              text: '资源网站收集',
+              link: '/tools/resources.md',
+            },
+            {
+              text: 'demo',
+              link: '/tools/demo.md',
+            },
+            {
+              text: '没啥用的小玩意',
+              link: '/tools/toy.md',
+            },
+          ],
         },
       ],
     },
