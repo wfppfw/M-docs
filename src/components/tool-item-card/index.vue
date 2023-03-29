@@ -33,9 +33,62 @@ const props = defineProps({
 });
 </script>
 <style scoped>
+.my-link:before {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateZ(0);
+  transition: all 0.3s ease 0.2s;
+  box-sizing: border-box;
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 8px 0 8px;
+  border-color: #30363d transparent transparent transparent;
+  left: calc(50% - 8px);
+  top: 0px;
+  /* transform: translate(0) translateY(-2px); */
+}
+.my-link:after {
+  visibility: hidden;
+  opacity: 0;
+  transform: translate(-50%) translateZ(0);
+  transition: all 0.3s ease 0.2s;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: #f4f4f5;
+  content: attr(aria-controls);
+  position: absolute;
+  padding: 6px 10px;
+  z-index: -1;
+  left: 50%;
+  bottom: 100%;
+  /* transform: translate(-50%) translateY(-2px); */
+  background: #30363d;
+  border-radius: 4px;
+  width: auto;
+  line-height: 1.5;
+}
 .my-link:hover {
   opacity: 0.7;
   box-shadow: 0 0 10px #ccc;
+}
+
+.my-link:hover::after {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(-50%) translateY(-2px);
+  /* transition: all 0.3s ease 0.2s; */
+  box-sizing: border-box;
+}
+.my-link:hover::before {
+  visibility: visible;
+  opacity: 1;
+  /* transform: translate(-50%) translateY(-2px); */
+  transform: translate(0) translateY(-2px);
+  /* transition: all 0.3s ease 0.2s; */
+  box-sizing: border-box;
 }
 .my-link {
   width: calc(50% - 6px);

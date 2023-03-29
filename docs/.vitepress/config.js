@@ -27,6 +27,14 @@ export default {
         link: '/chromedocs/index',
       },
       {
+        text: 'Demo',
+        link: '/demo/index.md',
+      },
+      {
+        text: 'Snippet',
+        link: '/snippet/index.md',
+      },
+      {
         text: 'Tool',
         link: '/tools/community',
       },
@@ -360,7 +368,7 @@ export default {
           link: '/guide/installation',
         },
       ],
-      tools: [
+      '/tools/': [
         {
           text: '导航分类',
           items: [
@@ -377,14 +385,38 @@ export default {
               link: '/tools/resources.md',
             },
             {
-              text: 'demo',
-              link: '/tools/demo.md',
-            },
-            {
               text: '没啥用的小玩意',
               link: '/tools/toy.md',
             },
           ],
+        },
+      ],
+      '/demo/': [
+        {
+          text: 'Simple Page',
+          items: [{ text: '', link: '' }],
+        },
+      ],
+      '/snippet/': [
+        {
+          text: 'CSS',
+          items: [{ text: '', link: '' }],
+        },
+        {
+          text: 'JS',
+          items: [{ text: '', link: '' }],
+        },
+        {
+          text: 'Interview (write)',
+          items: [{ text: '', link: '' }],
+        },
+        {
+          text: 'OJ',
+          items: [{ text: '', link: '' }],
+        },
+        {
+          text: 'Other',
+          items: [{ text: '', link: '' }],
         },
       ],
     },
