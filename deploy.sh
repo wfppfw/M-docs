@@ -11,11 +11,11 @@ yarn run docs:build
 
 cd docs/.vitepress/dist
 
-git init
-git add -A
-git commit -m 'add'
+# git init
+# git add -A
+# git commit -m 'add'
 
-git push -f git@github.com:wfppfw/M-docs.git master:master
+git push -f git@github.com:wfppfw/M-docs.git master
 # git push -f git@github.com:你的git名/你的git项目名.git master:你的git分支
 
 cd -
