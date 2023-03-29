@@ -1,5 +1,9 @@
 ### .gitignore 忽略文件
 
+### 给文件添加权限为可执行
+
+chmod +x ss.sh
+
 ## 配置 eslint
 
 ###
