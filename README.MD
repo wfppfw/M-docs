@@ -4,6 +4,12 @@
 
 chmod +x ss.sh
 
+
+### 404资源
+
+ github page 路径baseUrl:/项目名/,解决js,CSS路径问题
+public 资源路径问题
+
 ## 配置 eslint
 
 ###

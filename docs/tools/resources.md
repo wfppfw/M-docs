@@ -7,13 +7,13 @@ import CardItem from "../../src/components/tool-item-card/index.vue"
 
 <CardContent>
 	<CardItem link="https://wallhaven.cc/" desc="the best high quality wallpapers on the Net" title="wallhaven.cc"
-	img="/img/wall.png">
+	img="/M-docs/wall.png">
 	</CardItem>
 	<CardItem link="https://segmentfault.com/" desc="中国领先的开发者技术社区" title="思否"
-	img="/img/sf.png">
+	img="/M-docs/sf.png">
 	</CardItem>
 	<CardItem link="https://stackoverflow.com/" desc="全球最大的技术问答类在线社区，几乎可以找到所有问题的答案" title="stackOverflow"
-	img="/img/stackoverflow.png">
+	img="/M-docs/stackoverflow.png">
 	</CardItem>
 </CardContent>
 

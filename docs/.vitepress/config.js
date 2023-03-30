@@ -1,4 +1,7 @@
 export default {
+  base: '/M-docs/',
+  ignoreDeadLinks: true,
+  lastUpdated: true,
   title: 'Moon-docs',
   description: 'moon的学习文档组件库',
   head: [
@@ -17,6 +20,11 @@ export default {
     ],
   ],
   themeConfig: {
+    lastUpdatedText: 'Updated Date',
+    docFooter: {
+      prev: 'Pagina prior',
+      next: 'Proxima pagina',
+    },
     siteTitle: "Moon's docs",
     logo: './moonLogo.png',
     nav: [
