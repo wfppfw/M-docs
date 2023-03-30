@@ -1,1 +1,0 @@
-import{_ as e,o,c as t}from"./app.f245760f.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"chromedocs/notebook/index.md"}'),n={name:"chromedocs/notebook/index.md"};function r(a,c,s,d,i,p){return o(),t("div")}const f=e(n,[["render",r]]);export{m as __pageData,f as default};
