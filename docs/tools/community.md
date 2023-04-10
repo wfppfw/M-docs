@@ -32,6 +32,9 @@ import CardItem from "../../src/components/tool-item-card/index.vue"
 	<CardItem link="https://ts.yayujs.com/" desc="JavaScript 的超集" title="TypeScript"
 	img="/M-docs/TypeScript.png">
 	</CardItem>
+	<CardItem link="https://xxy5.com/vitepress-cn/theme-introduction.html" desc="VitePress中文文档" title="Vitepress"
+	img="/M-docs/vue.png">
+	</CardItem>
 </CardContent>
 
 ## 开发平台
@@ -40,13 +43,25 @@ import CardItem from "../../src/components/tool-item-card/index.vue"
 	<CardItem link="https://mp.weixin.qq.com/" desc="微信官方小程序、公众号开发平台" title="微信公众平台"
 	img="/M-docs/wechat.svg">
 	</CardItem>
-	<CardItem link="https://open.alipay.com/" desc="支付宝开放平台，包含小程序、生活号、第三方应用、web、loT开发" title="支付宝开放平台"
-	img="/M-docs/Alipay.svg">
+	<CardItem link="https://open.alipay.com/" desc="支付宝开放平台，包含小程序、生活号、第三方应用、web、loT开发"       title="支付宝开放平台" img="/M-docs/Alipay.svg">
 	</CardItem>
 	<CardItem link="https://microapp.bytedance.com/" desc="字节跳动小程序、小游戏开发平台" title="字节小程序"
 	img="/M-docs/bytedance.png">
 	</CardItem>
-	<CardItem link="https://developer.huawei.com/cn/" desc="华为开发者平台：终端开发、云计算开发" title="华为开发者平台"
-	img="/M-docs/huawei.png">
+	<CardItem link="https://developer.huawei.com/cn/" desc="华为开发者平台：终端开发、云计算开发" title="华为开发者平台" img="/M-docs/huawei.png"></CardItem>
+</CardContent>
+
+## api 开发文档
+
+<CardContent>
+		<CardItem link="https://lbs.qq.com/" desc="腾讯地图开放平台为各类应用厂商和开发者提供基于腾讯地图的地理位置服务和解决方案" title="腾讯位置服务"
+	img="/M-docs/txMap.png">
 	</CardItem>
+    	<CardItem link="https://dev.qweather.com/" desc="和风天气开发服务" title="和风天气"
+    img="/M-docs/hefeng.png">
+    </CardItem>
+    	<CardItem link="https://cloud.baidu.com/doc/index.html" desc="百度智能云帮助文档(人工智能)" title="百度智能云"
+    img="/M-docs/baiduzny.png">
+    </CardItem>
+
 </CardContent>

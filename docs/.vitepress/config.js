@@ -4,6 +4,11 @@ export default {
   lastUpdated: true,
   title: 'Moon-docs',
   description: 'moon的学习文档组件库',
+  algolia: {
+    appId: 'IBSAE9EWNL',
+    apiKey: 'a1acf3ea2443c31f99d219b4344b7b97',
+    indexName: '1',
+  },
   head: [
     //站点favicon,图片资源在publi下
     // https://v2.vuepress.vuejs.org/zh/guide/assets.html#public-%E6%96%87%E4%BB%B6
@@ -26,7 +31,7 @@ export default {
       next: 'Proxima pagina',
     },
     siteTitle: "Moon's docs",
-    logo: './moonLogo.png',
+    logo: '/M-docs/moonLogo.png',
     nav: [
       { text: 'Guide', link: '/guide/installation' },
       { text: 'Component', link: '/components/' },
@@ -47,7 +52,10 @@ export default {
         link: '/tools/community',
       },
     ],
-    socialLinks: [{ icon: 'github', link: 'https://gitee.com/geeksdidi' }],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/wfppfw' },
+      { icon: 'wechat', link: 'https://github.com/wfppfw' },
+    ],
     sidebar: {
       '/chromedocs/': [
         {
@@ -402,6 +410,17 @@ export default {
       '/demo/': [
         {
           text: 'Simple Page',
+          items: [{ text: '', link: '' }],
+        },
+        {
+          text: 'Simple Tool',
+          items: [
+            { text: 'ip', link: '/demo/Tool/ip.md' },
+            { text: 'map', link: '/demo/Tool/map.md' },
+          ],
+        },
+        {
+          text: 'Simple Game',
           items: [{ text: '', link: '' }],
         },
       ],

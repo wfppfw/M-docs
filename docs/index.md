@@ -16,8 +16,8 @@ hero:
       text: 开始
       link: /guide/
     - theme: alt
-      text: 在 GitHub 上查看
-      link: https://github.com/
+      text: 去看看 Moon's Home
+      link: https://forgetmoon.com/
 
 features:
   - icon: 💡
