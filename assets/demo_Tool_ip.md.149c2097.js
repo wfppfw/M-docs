@@ -1,0 +1,1 @@
+import{I as e}from"./chunks/index.29c0e9f1.js";import{o as t,c as a,e as o}from"./app.4ab4139b.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"demo/Tool/ip.md","lastUpdated":1681110206000}'),r={name:"demo/Tool/ip.md"},l=Object.assign(r,{setup(s){return(c,p)=>(t(),a("div",null,[o(e)]))}});export{d as __pageData,l as default};

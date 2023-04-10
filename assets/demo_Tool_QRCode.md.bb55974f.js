@@ -1,0 +1,1 @@
+import{_ as e,o,c as t}from"./app.4ab4139b.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"demo/Tool/QRCode.md","lastUpdated":1681110206000}'),a={name:"demo/Tool/QRCode.md"};function r(s,d,c,n,p,_){return o(),t("div")}const l=e(a,[["render",r]]);export{i as __pageData,l as default};
